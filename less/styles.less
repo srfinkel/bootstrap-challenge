@@ -1,13 +1,19 @@
-.navbar-header {
+@brand-warning: #f0ad4e;
+@padding-base-vertical: 20px;
+@padding-base-horizontal: 20px;
+
+nav {
+	background-color: @brand-warning;
+
+}
+
+#main-menu {
 	background-color: @brand-warning;
 }
 
-.logo {
-
-
-
+body {
+	background-color: @brand-warning;
 }
-
 // Mixin
 .center-block() {
 	display: block;
@@ -15,8 +21,7 @@
 	margin-right: auto;
 }
 
-// Usage
-.container {
-	width: 940px;
-	.center-block();
+#welcome {
+	padding: @padding-base-horizontal, @padding-base-vertical;
+	border-color: grey;
 }

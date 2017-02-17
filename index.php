@@ -71,30 +71,44 @@
 		</header>
 		<main>
 			<div class="container">
+
 				<div class="row">
-					<div class="col-md-12 center-block">WELCOME</p></div>
+					<div class="col-md-12">
+						<p class="text-center" id="welcome">WELCOME</p>
+					</div>
 				</div>
+
 				<div class="row">
-					<div class="col-md-2 col-md-offset-1">PHOTO</div>
+					<div class="col-md-3">
+						<p class="text-center">PHOTO</p>
+					</div>
 					<div class="col-md-9">
-						<p class="text-center">TEXT</p>
+					<p class="text-center">TEXT</p>
 					</div>
 				</div>
+
 				<div class="row">
-					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle">
-					</div>
-					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle">
-					</div>
-					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle">
-					</div>
-					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle">
-					</div>
+					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle"></div>
+					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle"></div>
+					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle"></div>
+					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle"></div>
+				</div>
+
 					<div class="row">
-						<div class="col-md-3">HEADING/TEXT</div>
-						<div class="col-md-3">HEADING/TEXT</div>
-						<div class="col-md-3">HEADING/TEXT</div>
-						<div class="col-md-3">HEADING/TEXT</div>
+							<div class="col-md-3 cd-sm-1">
+								<p class="box">Spicy jalapeno bacon ipsum dolor amet ham eiusmod enim shoulder et. Salami picanha alcatra ex lorem shankle ipsum shoulder. Labore ut chicken, ham alcatra pork loin aute laborum quis ham hock proident esse. Bresaola chuck id ribeye. Reprehenderit laborum tempor do.</p>
+							</div>
+							<div class="col-md-3">
+								<p>Spicy jalapeno bacon ipsum dolor amet ham eiusmod enim shoulder et. Salami picanha alcatra ex lorem shankle ipsum shoulder. Labore ut chicken, ham alcatra pork loin aute laborum quis ham hock proident esse. Bresaola chuck id ribeye. Reprehenderit laborum tempor do.</p>
+							</div>
+							<div class="col-md-3">
+								<p>Spicy jalapeno bacon ipsum dolor amet ham eiusmod enim shoulder et. Salami picanha alcatra ex lorem shankle ipsum shoulder. Labore ut chicken, ham alcatra pork loin aute laborum quis ham hock proident esse. Bresaola chuck id ribeye. Reprehenderit laborum tempor do.</p>
+							</div>
+							<div class="col-md-3">
+								<p>Spicy jalapeno bacon ipsum dolor amet ham eiusmod enim shoulder et. Salami picanha alcatra ex lorem shankle ipsum shoulder. Labore ut chicken, ham alcatra pork loin aute laborum quis ham hock proident esse. Bresaola chuck id ribeye. Reprehenderit laborum tempor do.</p>
+							</div>
 					</div>
+
 		</main>
 		<footer>
 			<div class="container">
@@ -105,6 +119,5 @@
 				</div>
 			</div>
 		</footer>
-		</div>
 	</body>
 </html>
