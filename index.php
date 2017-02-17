@@ -20,7 +20,7 @@
 				rel="stylesheet"/>
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+		<link rel="stylesheet" href="css/styles.css" type="text/css"/>
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,22 +45,32 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
-						<p class="text-center">LOGO</p>
-					</div>
-					<div class="col-md-3"></div>
-					<div class="col-md-6">
-						<p class="text-center">TOP NAVIGATION</p>
-					</div>
+					<nav class="navbar navbar">
+						<!-- logo and mobile toggle button get grouped together for better mobile display -->
+						<div class="navbar-header">
+							<!-- this is the mobile menu button -->
+							<button class="navbar-toggle collapsed" type="button" data-toggle="collapse"
+									  data-target="#main-menu">
+								<span class="sr-only">main menu</span>
+								<span class="glyphicon glyphicon-menu-hamburger"></span>
+							</button>
+							<a class="navbar-brand" href="#">LOGO</a>
+						</div>
+
+						<!-- here are your main nav links, grouped for toggling -->
+						<div class="collapse navbar-collapse" id="main-menu">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">TOP NAVIGATION</a></li>
+							</ul>
+						</div>
+					</nav>
 				</div>
 			</div>
 		</header>
 		<main>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<p class="text-center">WELCOME</p>
-					</div>
+					<div class="col-md-12 welcome">WELCOME</p></div>
 				</div>
 				<div class="row">
 					<div class="col-md-2 col-md-offset-1">PHOTO</div>
@@ -69,12 +79,14 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-3">
-						<img src="http://placekitten.com/200/300" alt="kitten" class="img-circle">
+					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle">
 					</div>
-					<div class="col-md-3"><img src="http://placekitten.com/200/300" alt="kitten" class="img-circle"></div>
-					<div class="col-md-3"><img src="http://placekitten.com/200/300" alt="kitten" class="img-circle"></div>
-					<div class="col-md-3"><img src="http://placekitten.com/200/300" alt="kitten" class="img-circle"></div>
+					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle">
+					</div>
+					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle">
+					</div>
+					<div class="col-md-3"><img src="http://lorempixel.com/100/100/" alt="random-pic" class="img-circle">
+					</div>
 					<div class="row">
 						<div class="col-md-3">HEADING/TEXT</div>
 						<div class="col-md-3">HEADING/TEXT</div>
