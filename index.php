@@ -20,7 +20,7 @@
 				rel="stylesheet"/>
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/styles.css" type="text/css"/>
+		<link rel="stylesheet" href="less/styles.less" type="text/css"/>
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,6 +36,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
+
+		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
 
 		<title>
 			Bootstrap Challenge
@@ -70,7 +72,7 @@
 		<main>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 welcome">WELCOME</p></div>
+					<div class="col-md-12 center-block">WELCOME</p></div>
 				</div>
 				<div class="row">
 					<div class="col-md-2 col-md-offset-1">PHOTO</div>
